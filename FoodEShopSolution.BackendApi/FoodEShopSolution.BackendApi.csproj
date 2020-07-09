@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FoodEShopSolution.Application\FoodEShopSolution.Application.csproj" />
+    <ProjectReference Include="..\FoodEShopSolution.Data\FoodEShopSolution.Data.csproj" />
+    <ProjectReference Include="..\FoodEShopSolution.ViewModel\FoodEShopSolution.ViewModels.csproj" />
+    <ProjectReference Include="..\Utilities\FoodEShopSolution.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\user-content\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "FoodEShopSolutionDb": "Server=DESKTOP-PQJ5SEJ\\SQLEXPRESS;Database=FoodEShopSolution;Trusted_Connection=True"
+  }
+}
