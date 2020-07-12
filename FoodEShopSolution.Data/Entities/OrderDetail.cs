@@ -6,12 +6,15 @@ namespace FoodEShopSolution.Data.Entities
 {
     public class OrderDetail
     {
-        public int OrderId { get; set; }
-        public int ProductId { get; set; }
-        public int Quanlity { get; set; }
-        public decimal Price { get; set; }
+
+        public int OrderId { set; get; }
+        public int ProductId { set; get; }
+        public int Quantity { set; get; }
+        public decimal Price { set; get; }
 
         public Order Order { get; set; }
+
         public Product Product { get; set; }
+
     }
 }

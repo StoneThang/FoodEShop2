@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FoodEShopSolution.ViewModels.Catalog.Product
+namespace FoodEShopSolution.ViewModels.Catalog.ProductImages
 {
     public class ProductImageViewModel
     {

@@ -9,11 +9,13 @@ namespace FoodEShopSolution.Data.Entities
     {
         public int Id { set; get; }
         public int SortOrder { set; get; }
-        public bool IsShowOnHome { get; set; }
+        public bool IsShowOnHome { set; get; }
         public int? ParentId { set; get; }
-        public Status Status{set;get;}
+        public Status Status { set; get; }
 
         public List<ProductInCategory> ProductInCategories { get; set; }
-        public List<CategoriesTranslation> CategoriesTranslations { get; set; }
+
+        public List<CategoryTranslation> CategoryTranslations { get; set; }
+
     }
 }
